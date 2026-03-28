@@ -1,32 +1,63 @@
-# How to Play Mari0 Online
+# Mari0
 
-## Getting Started
-To play Mari0 online, follow these simple steps:
+## Play Mari0 Online via GitHub Pages
 
-1. **Download the Game**: Make sure you have the latest version of Mari0 downloaded from the official website or GitHub release page.
+Welcome! Your Mari0 game is now set up to run directly in your web browser. No downloads needed!
 
-2. **Install the Game**: Unzip the downloaded file and install the game by following the installation instructions.
+### 🚀 Quick Start
 
-3. **Launch the Game**: Open the Mari0 application on your computer.
+Your game will be available at:
+```
+https://darkstalker01.github.io/Mari0/
+```
 
-## Playing Online
-4. **Create or Join a Game**: 
-   - Click on the 'Online' option in the main menu. 
-   - To create a game, select 'Create Game', choose your game settings, and invite friends.
-   - To join an existing game, select 'Join Game' and enter the game room code provided by your friend.
+### 📋 Setup Instructions
 
-5. **Game Controls**: Familiarize yourself with the game controls to navigate your character effectively:
-   - **Arrow Keys**: Move your character
-   - **Z**: Jump
-   - **X**: Run/Fire
+#### Step 1: Enable GitHub Pages
+1. Go to your repository: https://github.com/Darkstalker01/Mari0
+2. Click **Settings** (in the top navigation)
+3. Scroll down to the **"Pages"** section on the left sidebar
+4. Under "Build and deployment":
+   - Select **Source**: `Deploy from a branch`
+   - Select **Branch**: `main`
+   - Select **Folder**: `/ (root)`
+5. Click **Save**
 
-6. **Enjoy Playing**: You can now enjoy playing Mari0 with your friends online!
+#### Step 2: Wait for Deployment
+GitHub Pages will build and deploy your site. This typically takes a few minutes. You'll see a blue check mark when it's ready.
 
-## Troubleshooting
-If you experience any connection issues:
-- Check your internet connection.
-- Ensure that your game is updated to the latest version.
-- Check if any firewall settings are blocking the game.
+#### Step 3: Play!
+Open your browser and visit your game URL:
+```
+https://darkstalker01.github.io/Mari0/
+```
 
-## Support
-For further assistance, please refer to the official support forum or community page.
+### 🎮 Game Controls
+- **Arrow Keys**: Move
+- **Z**: Jump
+- **X**: Run/Fire
+
+### 📁 What's Included
+- `index.html` - Web interface for your game
+- `style.css` - Styling and layout
+- `package.json` - Project configuration
+- `game.love` - Your Mari0 game file (make sure this is in the root directory)
+
+### ⚠️ Important Notes
+- Your `game.love` file must be in the root directory of the repository
+- GitHub Pages serves your site publicly, so anyone with the URL can play
+- The game runs using LÖVE.js (a web port of the LÖVE framework)
+
+### 🐛 Troubleshooting
+If the game doesn't load:
+1. Check that your `game.love` file is in the repository root
+2. Wait a few minutes for GitHub Pages to finish deploying
+3. Clear your browser cache and refresh
+4. Check the browser console (F12) for any error messages
+
+### 📞 Support
+For issues with the game itself, refer to the original Mari0 project documentation.
+
+---
+
+**Enjoy your online Mari0 game!** 🎮✨
