@@ -1,0 +1,1 @@
+{"name": "Mari0 Web", "version": "1.0.0", "description": "Mari0 game playable in your browser", "main": "index.html", "scripts": {"start": "python -m http.server 8000"}, "keywords": ["mari0", "game", "love2d"], "author": "Darkstalker01", "license": "MIT"}
