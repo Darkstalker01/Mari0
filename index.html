@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mari0 Game</title>
+    <script src="https://love2d.org/build/love.js"></script>
+</head>
+<body>
+    <script>
+        function loadGame() {
+            var gameFile = 'path/to/your/game.mari0'; // Update this path to your game file
+            var love = new LOVE({
+                // Options for love.js can be set here
+            });
+            love.run(gameFile);
+        }
+        window.onload = loadGame;
+    </script>
+</body>
+</html>
